@@ -1,0 +1,36 @@
+{
+  "name": "mikel-ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce backend",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "jest",
+    "test-w": "jest --watchAll"
+  },
+  "author": "Rogers",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "hpp": "^0.2.3",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "supertest": "^6.3.3",
+    "utils": "^0.3.1",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.4.0"
+  }
+}
